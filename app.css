@@ -10,6 +10,7 @@ body {
 
 #navbar .nav-link {
     color: white;
+    font-size: 1rem;
 }
 
 #navbar .nav-link:hover {
@@ -19,4 +20,33 @@ body {
 #navbar .navbar-brand {
     color: #354259;
     font-size: 1.5rem;
+}
+
+#title-head h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blurb h2 {
+    color: #354259;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #3f4e4f;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.navbar.scrolled {
+    background: #c2ded1;
+    transition: background 500ms;
+}
+
+@media screen and (max-width: 1200px) {
+    #title-head h1 {
+        font-size: 3rem;
+    }
 }
